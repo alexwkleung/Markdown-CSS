@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('./fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf');
+}
+
+body { 
+    background-color: #212121;
+}
+
+p {
+    color: #BDBDBD;
+    font-size: 17px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+a {
+	color: #5C6BC0;
+	text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+span { 
+    color: #BDBDBD;
+}
+
+pre code {
+    color: #BDBDBD;
+}
+
+pre { 
+    color: #BDBDBD;
+}
+
+mark { 
+    background-color: #d2ab2c;
+    color: #000000;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+img { 
+    max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #BDBDBD;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-decoration: underline;
+}
+
+ul {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 17px;
+    color: #BDBDBD;
+}
+
+ol {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #BDBDBD;
+    font-size: 17px;
+}
+
+details, summary {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 17px;
+}
+
+code {
+    font-size: 17px;
+    /* background: #673AB7; */
+}
+
+blockquote  {
+    border-left: 3px solid #BDBDBD;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    margin-left: 1.5em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 17px;
+}
+
+blockquote:before {
+    color: #BDBDBD;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    display: inline;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 17px;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    font-size: 17px;
+    color: #BDBDBD;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 6px 13px;
+}
+
+strong {
+    color: #E0E0E0;
+    font-size: 17.5px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+details summary {
+    cursor: pointer;
+    border-width: 1px;
+    width: auto;
+    height: auto;
+    border-style: solid;
+    border-color:rgb(71, 71, 71);
+    color: #BDBDBD;
+}
+
+details p { 
+    border-width: 1px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    border-style: solid;
+    border-color:rgb(71, 71, 71);
+    color: #BDBDBD;
+}
+
+details summary > * {
+    display: inline;
+}
