@@ -1,14 +1,22 @@
+/* 
+this can be modified to your liking.
+*
+* the stylesheet may not be fully plug-in-play, so please be aware of that. 
+*
+* NOTE: these styles may look a bit off since these haven't been thoroughly tested.
+*/
+
 @font-face {
     font-family: 'IBM Plex Sans';
     src: url('./fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf');
 }
 
 body { 
-    background-color: #212121;
+    background-color: #f0e4da;
 }
 
 p {
-    color: #BDBDBD;
+    color: #000000;
     font-size: 17px;
     font-family: 'IBM Plex Sans', sans-serif;
 }
@@ -20,21 +28,20 @@ a {
 }
 
 span { 
-    color: #BDBDBD;
+    color: #000000;
 }
 
 pre code {
-    color: #BDBDBD;
+    color: #000000
 }
 
 pre { 
-    color: #BDBDBD;
+    color: #000000
 }
 
-mark { 
-    background-color: #d2ab2c;
+mark {
+    background-color: #D1C4E9;
     color: #000000;
-    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 img { 
@@ -44,20 +51,20 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #BDBDBD;
+    color: #000000;
     font-family: 'IBM Plex Sans', sans-serif;
-    text-decoration: underline;
+    text-decoration: underline; /* underline is optional for headings */
 }
 
 ul {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 17px;
-    color: #BDBDBD;
+    color: #000000
 }
 
 ol {
     font-family: 'IBM Plex Sans', sans-serif;
-    color: #BDBDBD;
+    color: #000000;
     font-size: 17px;
 }
 
@@ -68,11 +75,11 @@ details, summary {
 
 code {
     font-size: 17px;
-    /* background: #673AB7; */
+    background: #CE93D8;
 }
 
 blockquote  {
-    border-left: 3px solid #BDBDBD;
+    border-left: 3px solid #000000;
     margin: 1.5em 10px;
     padding: 0.5em 10px;
     margin-left: 1.5em;
@@ -81,7 +88,7 @@ blockquote  {
 }
 
 blockquote:before {
-    color: #BDBDBD;
+    color: #000000;
     font-size: 4em;
     line-height: 0.1em;
     margin-right: 0.25em;
@@ -98,13 +105,13 @@ table, th, td {
     border: 1px solid;
     border-collapse: collapse;
     font-size: 17px;
-    color: #BDBDBD;
+    color: #000000;
     font-family: 'IBM Plex Sans', sans-serif;
     padding: 6px 13px;
 }
 
 strong {
-    color: #E0E0E0;
+    color: #000000;
     font-size: 17.5px;
     font-family: 'IBM Plex Sans', sans-serif;
 }
@@ -116,7 +123,7 @@ details summary {
     height: auto;
     border-style: solid;
     border-color:rgb(71, 71, 71);
-    color: #BDBDBD;
+    color: #000000;
 }
 
 details p { 
