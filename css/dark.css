@@ -7,8 +7,8 @@ this can be modified to your liking.
 */
 
 @font-face {
-    font-family: 'IBM Plex Sans';
-    src: url('./fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf');
+    font-family: 'Inter-Regular';
+    src: url('./fonts/Inter-Regular.ttf');
 }
 
 body { 
@@ -18,13 +18,13 @@ body {
 p {
     color: #BDBDBD;
     font-size: 17px;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter-Regular', sans-serif;
 }
 
 a {
 	color: #5C6BC0;
 	text-decoration: none;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter-Regular', sans-serif;
 }
 
 span { 
@@ -52,24 +52,24 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
     color: #BDBDBD; 
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter-Regular', sans-serif;
     text-decoration: underline; /* underline is optional for headings */
 }
 
 ul {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter-Regular', sans-serif;
     font-size: 17px;
     color: #BDBDBD;
 }
 
 ol {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter-Regular', sans-serif;
     color: #BDBDBD;
     font-size: 17px;
 }
 
 details, summary {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter-Regular', sans-serif;
     font-size: 17px;
 }
 
@@ -83,7 +83,7 @@ blockquote  {
     margin: 1.5em 10px;
     padding: 0.5em 10px;
     margin-left: 1.5em;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter-Regular', sans-serif;
     font-size: 17px;
 }
 
@@ -97,7 +97,7 @@ blockquote:before {
 
 blockquote p {
     display: inline;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter-Regular', sans-serif;
     font-size: 17px;
 }
 
@@ -106,14 +106,14 @@ table, th, td {
     border-collapse: collapse;
     font-size: 17px;
     color: #BDBDBD;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter-Regular', sans-serif;
     padding: 6px 13px;
 }
 
 strong {
     color: #E0E0E0;
     font-size: 17.5px;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter-Regular', sans-serif;
 }
 
 details summary {
