@@ -1,6 +1,8 @@
 /* 
 * repo: https://github.com/alexwkleung/Markdown-CSS
 *
+* MIT License.
+*
 * this can be modified to your liking, and is encouraged.
 *
 * you should be aware that copying this into your project can
@@ -63,7 +65,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #BDBDBD; 
     font-family: 'Inter-Bold', sans-serif;
     /* text-decoration: underline; */
-    border-bottom: 1px solid;
 }
 
 ul {
